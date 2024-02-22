@@ -1,0 +1,6 @@
+mingw32-make
+.\p2c.exe test1.p
+.\p2c.exe test2.p
+.\p2c.exe test3.p
+.\p2c.exe test4.p
+.\p2c.exe test5.p

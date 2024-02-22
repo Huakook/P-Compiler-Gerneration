@@ -1,0 +1,9 @@
+# To generate the parser
+gcc -o parse p2c_lex.o p2c.o p2c_yacc.o p2c_tree.o
+
+# To test the file by parser
+./parse test1.p
+
+# To pass command line auguments to main function
+original: .\p2c.exe
+throw 1 augument: .\p2c.exe text1.p
